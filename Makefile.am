@@ -18,7 +18,7 @@
 # bin/ must be run first, as it builds executables needed for tests.
 # autom4te uses autotest.m4f to generate `testsuite', so build tests last.
 # Rules in man/ use scripts from both bin/ and tests/, so *it* goes last.
-SUBDIRS = bin . lib doc tests man
+SUBDIRS = bin . lib tests man
 
 ACLOCAL_AMFLAGS = -I m4
 
